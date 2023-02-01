@@ -1,0 +1,170 @@
+<!DOCTYPE >
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  
+    
+    <title>MI CURRICULUM VITAE </title>
+    <meta name="description" content="Mi sitio web" />
+    <meta name="keywords" content="sitio, web" />
+
+    <link rel="index" href="./" title="Inicio" />
+    <link rel="stylesheet" media="screen,projection" type="text/css" href="./css/principal.css" />
+</head>
+
+<body>
+
+<!-- Contenedor -->
+<div id="contenedor">
+
+    <!-- Cabecera -->
+    <div id="cabecera">
+
+        <!-- Logo -->
+        <h1 id="logo"><a href="" title="Mi sitio web">CV Maria Elena Fernandez</a></h1>
+
+		<div class="clear"></div>
+    </div> <!-- /cabecera -->
+
+     <!-- Menú principal -->
+     <div id="menu">
+            <ul>
+                <li ><a href="inicio.html">Inicio</a></li>
+                <li><a href="objetivo profesional.html">Objetivo Profesional</a></li>
+                <li><a href="datos personales.html">Datos Personales</a></li>
+                <li><a href="estudios cursados.html">Estudios Cursados</a></li>
+                <li><a href="experiencia laboral.html">Experiencia Laboral</a></li>
+                <li><a href="habilidades.html">Habilidades</a></li>
+                <li class="seleccionado"><a href="contacto.html">Contacto</a></li>
+            </ul>
+
+        <div class="clear"></div>
+     </div> <!-- /menú principal -->
+
+     <!-- Contenido -->
+     <div id="contenido">
+
+		<!-- Principal -->
+		<div id="principal">
+
+            <!-- Articulo -->
+            <div class="articulo">
+                <h2><a href="#">Contacto a:</a></h2>
+
+                <form action="/php/insertar_cv.php" method="post" enctype="multipart/form-data">
+                    
+                    Empresa o Consultora <br/>
+                    <input type="text" name="Empresa" value="" size="50" maxlength="80" />
+
+                    <br/>
+
+                    Nombre <br/>
+                    <input type="text" name="nombre" value="" size="50" maxlength="30" />
+                    
+                    <br/>
+                    
+                    Apellidos <br/>
+                    <input type="text" name="apellidos" value="" size="50" maxlength="80" />
+                    
+                    <br/>
+                    
+                    Email <br/>
+                    <input type="text" name="email" value="" size="50" maxlength="80" />
+                    
+                    <br/>
+
+                    Whatsapp<br/>
+                    <input type="text" name="Whatsapp" value="" size="50" maxlength="80" />
+                    
+                    <br/>
+
+                    Comentario <br/>
+                    <input type="text" name="comentario" value="" size="50" maxlength="200" />
+                
+    
+                    <br/><br/>
+                 
+                    
+                    <br/><br/>
+                    
+                    <input name="suscribir" type="checkbox" value="suscribir" checked="checked"/> Suscribirme al boletín de novedades
+                    
+                    <br/><br/>
+                    
+                    <input type="submit" name="enviar" value="Guardar cambios" />
+                    <input type="reset" name="limpiar" value="Borrar los datos introducidos" />
+                    
+                    
+                    </form>
+                    
+
+
+            </div> <!-- /articulo -->
+
+            <div class="clear"></div>
+            
+
+        </div><!-- /principal -->
+
+        <!-- Secundario -->
+        <div id="secundario">
+
+                <!-- Sobre mi -->
+                <h3><a href="#">Sobre mí</a></h3>
+
+                <div id="sobremi">
+                    <img src="imagenes/Maria Fernandez.jpg" alt="Mi foto" />
+                    <p><br /><br /><br /><br /><br /><br /><br /><br />
+                        <strong>Maria Elena Fernandez</strong>
+                        <br />Edad: 30 años<br />
+                        Ciudadad de Residencia: Buenos Aires, Argentina<br />
+                    <a href="#">Mi perfil público</a></p>
+                </div> <!-- /sobre mi -->
+
+                <div class="clear"></div>
+
+                <!-- Categorías -->
+                <h3>Categorías</h3>
+
+                <ul id="categorias">
+                    <li ><a href="inicio.html">Desarrollador Web</a></li>
+                    <li><a href="inicio.html">Sitio Web vs Pagina Web</a></li>
+                    <li><a href="inicio.html">Historia de Internet</a></li>
+                    <li><a href="#">Actualidad</a></li>
+                    <li><a href="#">Proyectos</a></li>
+                </ul>
+
+                <div class="clear"></div>
+
+
+                <!-- Enlaces -->
+                <h3>Enlaces</h3>
+                <ul id="enlaces">
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="objetivo profesional.html">Objetivo Profesional</a></li>
+                    <li><a href="datos personales.html">Datos Personales</a></li>
+                    <li><a href="estudios cursados.html">Estudios Cursados</a></li>
+                    <li><a href="experiencia laboral.html">Experiencia Laboral</a></li>
+                    <li><a href="habilidades.html">Habilidades</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+
+                <div class="clear"></div>
+
+        </div> <!-- /secundario -->
+
+	<div class="clear"></div>
+    </div> <!-- /contenido -->
+
+    <!-- Pie de página -->
+    <div id="pie">
+        <p id="copyright">&copy; 2023 MabelSoft "Todos los derechos reservados"</p>
+    </div> <!-- /pie de página -->
+
+</div> <!-- /contenedor -->
+
+</body>
+</html>
